@@ -157,6 +157,8 @@ Config.set("input", "mouse", "mouse, disable_multitouch")
 from kivy.base import EventLoop
 EventLoop.ensure_window()
 
+print("teste travis")
+
 from kivy.app import App
 from kivy.animation import Animation
 from kivy.uix.checkbox import CheckBox
